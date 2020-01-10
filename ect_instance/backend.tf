@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-us-karimi2"
+    bucket = "karimi-20"
     key    = "some"
-    region = "us-east-1"
+    region = "us-east-2"
   }
 }
